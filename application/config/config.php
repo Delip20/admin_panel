@@ -23,13 +23,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://192.168.43.144/admin_delip/';
 
-define('firebaseDb', 'https://karinesia-c01e3.firebaseio.com/');
-define('keyfcm', 'AAAAh2qQJnA:APA91bHyZGXpCZDlGbhcgAyUOiwaJitT_qsrGCHc91JnEsAukGn_mM9tuMEv3pK81qqeJ_2bXaGfAtkldKNATPa5Pr0U4uCGbYtvDiZnGhPTzrH8iz92SPsSrRkh1FDLugbi9eoCgkTb');
+$config['base_url'] = 'http://yourdomain.com';
+
+define('firebaseDb', 'https://yourdb.firebaseio.com/');
+define('keyfcm', 'api_firebase');
 
 
-define('google_maps_api', 'AIzaSyDalGUKLVovI3W0Qz8bvrafijrfhF_pEKs');
+define('google_maps_api', 'api_javascript');
 
 /*
 |--------------------------------------------------------------------------
